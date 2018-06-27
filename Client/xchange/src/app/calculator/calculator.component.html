@@ -1,0 +1,13 @@
+<form (ngSubmit)="onSubmit()" #convertForm="ngForm" class="py-5">
+  <div class="row">
+    <div class="col">
+      <input type="text" name="fromAmount" class="form-control form-control-lg" placeholder="USD" required [(ngModel)]="fromAmount" />
+    </div>
+    <div class="col">
+      <input type="text" name="toAmount" class="form-control form-control-lg" placeholder="EUR" disabled [(ngModel)]="toAmount" />
+    </div>
+  </div>
+  <div class="text-center py-2">
+    <button class="btn btn-primary btn-lg">CALCULATE</button>
+  </div> 
+</form>

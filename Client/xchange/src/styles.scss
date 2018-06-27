@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+header {
+    line-height: 1;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+main {
+    max-width: 600px;
+    min-height: 400px;
+    margin: 0 auto;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}

@@ -1,0 +1,4 @@
+curl -X POST http://localhost:5000/api/authentication -H "Content-Type: application/json" -d '{"UserName":"smashraid@gmail.com", "Password":"P@$$123"}' -i
+
+
+curl http://localhost:5000/api/values -H "Content-Type: application/json" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJzbWFzaHJhaWRAZ21haWwuY29tIiwianRpIjoiNzMwZmYyNTYtNjk3Ny00NzVhLWExZjgtMzExY2JiMWJjYjZmIiwiZXhwIjoxNTI5OTgwMTU3LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwMDAvIiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwLyJ9.8Gmz8UJZMDjQuk1QJfzp0H7rBzX9EzpYZeR0UFzx7mk" -i
